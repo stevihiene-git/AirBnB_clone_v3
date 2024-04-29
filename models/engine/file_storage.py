@@ -78,3 +78,10 @@ class FileStorage:
         """ calls reload()
         """
         self.reload()
+
+
+    def get(self, cls, id):
+        pass
+
+    def count(self, cls=None):
+        pass
